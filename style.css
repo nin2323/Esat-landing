@@ -1,17 +1,46 @@
+body {
+    background-image: url(./img/test-landing-id3\ 1.jpg);
+    position: absolute;  
+    width: 100%;
+}
 
-img {   
-position: absolute;
-width: 1920px;
-height: 1080px;
-left: 0px;
-top: 0px;
-background: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45))
-};
+main {
+    
+}
 
-h1 {
-    position: absolute;
+.header { 
+    display: flex;
+    justify-content: space-between;
+     
+}
+
+.texto {
     color: white;
 }
+
+.logo-esat {
+    height: 50px; 
+    margin-top: 20px;   
+    margin-left: 20px;
+}
+
+.logo {
+    margin-right: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
