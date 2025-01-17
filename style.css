@@ -1,11 +1,5 @@
 body {
-    background-image: url(./img/test-landing-id3\ 1.jpg);
-    position: absolute;  
-    width: 100%;
-}
-
-main {
-    
+    margin: 0;
 }
 
 .header { 
@@ -16,6 +10,10 @@ main {
 
 .texto {
     color: white;
+}
+
+.banner-image {
+    
 }
 
 .logo-esat {
@@ -34,26 +32,3 @@ main {
     justify-content: center;
     gap: 24px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
