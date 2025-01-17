@@ -2,33 +2,107 @@ body {
     margin: 0;
 }
 
-.header { 
+section {
+    margin: 124px 36px;
+}
+
+h1, h2, h3, p {
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 300;
+    margin:  0;
+}
+
+header {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+
+nav {
     display: flex;
     justify-content: space-between;
-     
-}
-
-.texto {
-    color: white;
-}
-
-.banner-image {
-    
-}
-
-.logo-esat {
-    height: 50px; 
-    margin-top: 20px;   
-    margin-left: 20px;
-}
-
-.logo {
-    margin-right: 30px;
+    margin: 0 36px;
+    align-items: center;
 }
 
 .contenedor {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 24px;
+    margin: 0 36px;
+    width: 817px;
+    display: flex; 
+    flex-direction: column;   
+    gap: 16px;
+    padding-top: 42px;
+}
+
+    .contenedor h1{
+        color: #EF7D00;
+    }
+
+    .contenedor h2 {
+        font-size: 76px;
+        font-weight: bold;
+        color: white;
+    }
+
+    .contenedor p {
+        color: white;
+    }
+
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1));
+    z-index: -50;
+}
+   
+#fondo {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -100;
+    object-fit: cover; /* Asegura que la imagen se recorte en lugar de deformarse */
+    object-position: center; /* Centra la imagen recortada */
+    background-color: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45));
+
+}
+
+.logo {
+    height: 50px;
+}
+
+button {
+    padding: 12px 24px;
+    background: #EF7D00;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    font-family: 'Inter';
+    font-size: 20px;
+    margin-top: 16px;
+}
+
+button:hover {
+    background: #a15300;
+    cursor: pointer;
+}
+.arrow {
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+}
+
+.title1 {
+    font-size: 96px;
+}
+
+.title1 span {
+    color: #EF7D00;
 }
