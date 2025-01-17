@@ -1,32 +1,162 @@
 body {
-    background-image: url(./img/test-landing-id3\ 1.jpg);
-    position: absolute;  
+    margin: 0;
+}
+
+header {
+    height: 100vh;
     width: 100%;
+    position: relative;
 }
 
-main {
-    
-}
 
-.header { 
+nav {
     display: flex;
     justify-content: space-between;
-     
 }
 
-.texto {
-    color: white;
-}
-
-.logo-esat {
-    height: 50px; 
-    margin-top: 20px;   
-    margin-left: 20px;
+#fondo {
+   height: 100%;
+   width: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: -100;
+   object-fit: cover; 
+   object-position: center; 
 }
 
 .logo {
-    margin-right: 30px;
+    height: 50px;
+    margin-left: 80px;
+    margin-top: 20px;
 }
+
+.logo-esat {
+    margin-right: 80px;
+}
+
+
+.contenedor{
+    margin-top:120px;
+    margin-left: 80px;
+    gap: 1px;
+}
+
+.text1{
+    width: 817px;
+    height: 17px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #EF7D00;
+}
+
+.text2{   
+    width: 817px;
+    height: 127px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 76px;
+    line-height: 72px;
+    color: #FFFFFF;
+ }
+
+ .text3 {
+    width: 817px;
+    height: 46px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+ }
+ 
+ .boton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    gap: 10px;
+    width: 210px;
+    height: 48px;
+    background: #EF7D00;
+    border-radius: 6px;
+    border: none;
+    }
+
+.arrow {
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+    background-color: transparent;
+    border: none;
+}
+
+.title1 {
+    width: 459px;
+    height: 152px;
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 76px;
+    color: #333333;   
+}
+
+.title2 {
+    width: 459px;
+    height: 152px;
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 76px;
+    color: orange
+}
+
+.explicacion{
+    width: 914px;
+    height: 58px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+}
+
+.contenedor-title {
+    padding: 200px;
+}
+
+.imagen-title1 {
+    max-width: 600px;
+    max-height: 600px;
+    padding: 0px 0px 10px 200px;
+} 
+
+.imagen-title2 {
+    max-width: 600px;
+    max-height: 600px;
+    padding: 0px 0px 10px 10px;
+}
+
+.imagen-title3 {
+    max-width: 600px;
+    max-height: 600px;
+    padding: 0px 0px 10px 10px;
+}
+
+
+
+
+
+
 
 
 
