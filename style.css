@@ -1,6 +1,7 @@
 body {
     margin: 0;
 }
+<<<<<<< HEAD
 
 header {
     height: 100vh;
@@ -8,12 +9,15 @@ header {
     position: relative;
 }
 
+=======
+>>>>>>> 24ce30d072a1693a2b57dc2f5cee54c290508c03
 
 nav {
     display: flex;
     justify-content: space-between;
 }
 
+<<<<<<< HEAD
 #fondo {
    height: 100%;
    width: 100%;
@@ -23,6 +27,20 @@ nav {
    z-index: -100;
    object-fit: cover; 
    object-position: center; 
+=======
+.texto {
+    color: white;
+}
+
+.banner-image {
+    
+}
+
+.logo-esat {
+    height: 50px; 
+    margin-top: 20px;   
+    margin-left: 20px;
+>>>>>>> 24ce30d072a1693a2b57dc2f5cee54c290508c03
 }
 
 .logo {
@@ -152,6 +170,7 @@ nav {
     padding: 0px 0px 10px 10px;
 }
 
+<<<<<<< HEAD
 
 
 
@@ -177,3 +196,11 @@ nav {
 
 
 
+=======
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+}
+>>>>>>> 24ce30d072a1693a2b57dc2f5cee54c290508c03
