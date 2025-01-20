@@ -1,5 +1,9 @@
+html{
+    scroll-behavior: smooth;
+}
 body {
     margin: 0;
+    
 }
 
 section {
@@ -25,6 +29,10 @@ nav {
     justify-content: space-between;
     margin: 0 36px;
     align-items: center;
+}
+
+.nav-link-rigth {
+    scroll-behavior: smooth;
 }
 
 .contenedor {
@@ -106,3 +114,61 @@ button:hover {
 .title1 span {
     color: #EF7D00;
 }
+
+.project {
+    margin-top: 48px;
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+    overflow-y: scroll;
+    width: 100vw;
+}
+
+.card{
+    width: 600px;
+    height: 600px;
+    background-color: #333333;
+    border-radius: 12px;
+    padding: 24px 48px 0px 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.type {
+    color: #EF7D00;
+    font-size: 16px;
+}
+
+.name {
+    color: white;
+}
+
+.card img{
+    width: 464px;
+    
+}
+
+.card-image {
+    text-align: right;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.projects-personal {
+    width: 100%;
+    max-height: 966px;
+    background-color: #EEF0F5;
+    align-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 24px;
+    text-align: center;
+    padding: 48px 0;
+    gap: 32px;
+}
+
+
+
