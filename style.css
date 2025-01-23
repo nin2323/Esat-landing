@@ -1,7 +1,21 @@
+html{
+    scroll-behavior: smooth;
+}
 body {
     margin: 0;
+    
 }
-<<<<<<< HEAD
+
+section {
+    margin: 124px 36px;
+}
+
+h1, h2, h3, p {
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 300;
+    margin:  0;
+}
 
 header {
     height: 100vh;
@@ -9,198 +23,195 @@ header {
     position: relative;
 }
 
-=======
->>>>>>> 24ce30d072a1693a2b57dc2f5cee54c290508c03
-
 nav {
     display: flex;
     justify-content: space-between;
+    margin: 0 36px;
+    align-items: center;
 }
 
-<<<<<<< HEAD
+.nav-link-rigth {
+    scroll-behavior: smooth;
+}
+
+.contenedor {
+    margin: 0 36px;
+    width: 817px;
+    display: flex; 
+    flex-direction: column;   
+    gap: 16px;
+    padding-top: 42px;
+}
+
+    .contenedor h1{
+        color: #EF7D00;
+    }
+
+    .contenedor h2 {
+        font-size: 76px;
+        font-weight: bold;
+        color: white;
+    }
+
+    .contenedor p {
+        color: white;
+    }
+
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1));
+    z-index: -50;
+}
+   
 #fondo {
-   height: 100%;
-   width: 100%;
-   position: absolute;
-   top: 0;
-   left: 0;
-   z-index: -100;
-   object-fit: cover; 
-   object-position: center; 
-=======
-.texto {
-    color: white;
-}
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -100;
+    object-fit: cover; /* Asegura que la imagen se recorte en lugar de deformarse */
+    object-position: center; /* Centra la imagen recortada */
+    background-color: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45));
 
-.banner-image {
-    
-}
-
-.logo-esat {
-    height: 50px; 
-    margin-top: 20px;   
-    margin-left: 20px;
->>>>>>> 24ce30d072a1693a2b57dc2f5cee54c290508c03
 }
 
 .logo {
     height: 50px;
-    margin-left: 80px;
-    margin-top: 20px;
 }
 
-.logo-esat {
-    margin-right: 80px;
-}
-
-
-.contenedor{
-    margin-top:120px;
-    margin-left: 80px;
-    gap: 1px;
-}
-
-.text1{
-    width: 817px;
-    height: 17px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 24px;
-    line-height: 29px;
-    color: #EF7D00;
-}
-
-.text2{   
-    width: 817px;
-    height: 127px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 76px;
-    line-height: 72px;
-    color: #FFFFFF;
- }
-
- .text3 {
-    width: 817px;
-    height: 46px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 24px;
-    line-height: 29px;
-    color: #FFFFFF;
- }
- 
- .boton {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+button {
     padding: 12px 24px;
-    gap: 10px;
-    width: 210px;
-    height: 48px;
     background: #EF7D00;
     border-radius: 6px;
     border: none;
-    }
+    color: white;
+    font-family: 'Inter';
+    font-size: 20px;
+    margin-top: 16px;
+}
 
+button:hover {
+    background: #a15300;
+    cursor: pointer;
+}
 .arrow {
     position: absolute;
     bottom: 16px;
     right: 16px;
-    background-color: transparent;
-    border: none;
 }
 
 .title1 {
-    width: 459px;
-    height: 152px;
-    font-family: 'SF Pro Text';
-    font-style: normal;
-    font-weight: 400;
     font-size: 96px;
-    line-height: 76px;
-    color: #333333;   
 }
 
-.title2 {
-    width: 459px;
-    height: 152px;
-    font-family: 'SF Pro Text';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 96px;
-    line-height: 76px;
-    color: orange
+.title1 span {
+    color: #EF7D00;
 }
 
-.explicacion{
-    width: 914px;
-    height: 58px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 29px;
-    color: #333333;
+.project {
+    margin-top: 48px;
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+    overflow-y: scroll;
+    width: 100vw;
 }
 
-.contenedor-title {
-    padding: 200px;
-}
 
-.imagen-title1 {
-    max-width: 600px;
-    max-height: 600px;
-    padding: 0px 0px 10px 200px;
-} 
-
-.imagen-title2 {
-    max-width: 600px;
-    max-height: 600px;
-    padding: 0px 0px 10px 10px;
-}
-
-.imagen-title3 {
-    max-width: 600px;
-    max-height: 600px;
-    padding: 0px 0px 10px 10px;
-}
-
-<<<<<<< HEAD
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-=======
-.contenedor {
+.card{
+    width: 600px;
+    height: 600px;
+    background-color: #333333;
+    border-radius: 12px;
+    padding: 24px 48px 0px 48px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    gap: 24px;
+    justify-content: space-between;
+    
 }
->>>>>>> 24ce30d072a1693a2b57dc2f5cee54c290508c03
+
+.type {
+    color: #EF7D00;
+    font-size: 16px;
+}
+
+.name {
+    color: white;
+}
+
+.card img{
+    width: 464px;
+    
+}
+
+.card-image {
+    text-align: right;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.projects-personal {
+    width: 100%;
+    max-height: 966px;
+    background-color: #EEF0F5;
+    align-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 24px;
+    text-align: center;
+    padding: 48px 0;
+    gap: 32px;
+}
+
+.title-formacion {
+    text-align: right;
+}
+
+.description-formacion {
+    max-width: 557px;
+    padding-left: 126px;
+    padding-bottom: 36px;
+}
+
+.container-formacion {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+
+.text-formacion {
+    font-size: 22px;
+    margin-top: 48px;
+}
+
+.text-formacion2 {
+    font-size: 19px;
+    font-weight: 100;
+    margin-top: 12px;
+}
+
+.img-code {
+    max-width: 991px;
+    max-height: 710px; 
+    margin: 0; 
+}
+
+.description1 {
+    display: flex;
+    gap: 10px;
+}
+
+.icon-formacion {
+    margin-top: 48px;
+}
+
+
+
+
