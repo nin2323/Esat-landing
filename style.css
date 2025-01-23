@@ -23,7 +23,6 @@ header {
     position: relative;
 }
 
-
 nav {
     display: flex;
     justify-content: space-between;
@@ -124,6 +123,7 @@ button:hover {
     width: 100vw;
 }
 
+
 .card{
     width: 600px;
     height: 600px;
@@ -169,6 +169,49 @@ button:hover {
     padding: 48px 0;
     gap: 32px;
 }
+
+.title-formacion {
+    text-align: right;
+}
+
+.description-formacion {
+    max-width: 557px;
+    padding-left: 126px;
+    padding-bottom: 36px;
+}
+
+.container-formacion {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+
+.text-formacion {
+    font-size: 22px;
+    margin-top: 48px;
+}
+
+.text-formacion2 {
+    font-size: 19px;
+    font-weight: 100;
+    margin-top: 12px;
+}
+
+.img-code {
+    max-width: 991px;
+    max-height: 710px; 
+    margin: 0; 
+}
+
+.description1 {
+    display: flex;
+    gap: 10px;
+}
+
+.icon-formacion {
+    margin-top: 48px;
+}
+
 
 
 
