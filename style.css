@@ -1,9 +1,15 @@
-html{
+/* html{
     scroll-behavior: smooth;
     
 }
 body {
     margin: 0;   
+} */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Elimina scroll lateral global */
 }
 
 section {
@@ -17,10 +23,12 @@ h1, h2, h3, p {
     margin:  0;
 }
 
-header {
+header, .reserva {
     height: 100vh;
     width: 100%;
     position: relative;
+    margin:  0;
+    padding: 0;
 }
 
 nav {
@@ -68,7 +76,7 @@ header::before {
     z-index: -50;
 }
    
-#fondo {
+.fondo {
     height: 100%;
     width: 100%;
     position: absolute;
@@ -108,22 +116,27 @@ button:hover {
 
 .title1 {
     font-size: 96px;
+    line-height: 86px;
 }
 
 .title1 span {
     color: #EF7D00;
 }
 
+
 .project {
     margin-top: 48px;
     display: flex;
     flex-direction: row;
     gap: 48px;
-    overflow-y: scroll;
-    width: 100vw; 
+    overflow-x: auto; /* Scroll horizontal para contenido extra */
+    overflow-y: hidden; /* Elimina el scroll vertical */
+    width: 100vw; /* Asegura que ocupe el ancho completo del viewport */
+    max-width: 100vw; /* Evita que exceda el ancho del viewport */
+    position: relative; /* Necesario para ajustes */
+    right: 0; /* Asegura que llegue al borde derecho */
+    box-sizing: border-box; /* Maneja el padding de manera controlada */
 }
-
-
 .card{
     width: 600px;
     height: 600px;
@@ -132,8 +145,7 @@ button:hover {
     padding: 24px 48px 0px 48px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    
+    justify-content: space-between;   
 }
 
 .type {
@@ -212,6 +224,48 @@ button:hover {
 .icon-formacion {
     margin-top: 48px;
 }
+
+.reserva {
+    position: relative;
+    margin-top: 180px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1));
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh; 
+    width: 100%;
+}
+
+.reserva__text {
+    color: white;
+    font-size: 48px;
+    line-height: 57px;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.reserva__button {
+    display: flex;
+    justify-content: center;
+}
+
+.matricula__contain {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+
+.description__matricula {
+    max-width: 557px;
+    padding-left: 126px;
+    padding-bottom: 36px;
+}
+
+
+
+
 
 
 
