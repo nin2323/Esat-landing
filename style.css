@@ -195,7 +195,7 @@ button:hover {
     padding-bottom: 36px;
 } */
 
-.formation__contain, .registration__contain {
+.formation__contain, .register__contain {
     display: flex;
     align-items: center;
     gap: 48px;
@@ -203,34 +203,34 @@ button:hover {
     justify-content: space-evenly;
 }
 
-.formation__description__title, .registration__description__title {
+.formation__description__title, .register__description__title {
     font-size: 22px;
     margin-top: 48px;
 }
 
-.formation__description__text, .registration__description__text{
+.formation__description__text, .register__description__text{
     font-size: 19px;
     font-weight: 100;
     margin-top: 12px;
 }
 
-.formation__img, .registration__img {
+.formation__img, .register__img {
     max-width: 991px;
     max-height: 710px; 
     margin: 0; 
     margin-top: 36px;
 }
 
-.formation__description, .registration__description  {
+.formation__description, .register__description  {
     display: flex;
     gap: 10px;
 }
 
-.formation__icon, .registration__icon {
+.formation__icon, .register__icon {
     margin-top: 48px;
 }
 
-.registration {
+.register {
     position: relative;
     margin-top: 180px;
     margin-left: 0;
@@ -244,7 +244,7 @@ button:hover {
     width: 100%;
 }
 
-.registration__text {
+.register__text {
     color: white;
     font-size: 48px;
     line-height: 57px;
@@ -252,19 +252,19 @@ button:hover {
     padding: 0 20px;
 }
 
-.registration__button {
+.register__button {
     display: flex;
     justify-content: center;
 }
 
-.registration {
+.register {
     display: flex;
     align-items: center;
     flex-direction: column;
     gap: 48px;
 }
 
-.registration__title {
+.register__title {
     padding-left: 36px;
 }
 
