@@ -94,6 +94,16 @@ header::before {
     height: 50px;
 }
 
+@media (max-width: 700px) {
+    .logo {
+        height: 35px;
+    }
+
+    .logo-esat {
+        height: 35px;
+    }
+}
+
 button {
     padding: 12px 24px;
     background: #EF7D00;
@@ -138,7 +148,7 @@ button:hover {
     right: 0; /* Asegura que llegue al borde derecho */
     box-sizing: border-box; /* Maneja el padding de manera controlada */
 }
-.card__project{
+.project__card{
     width: 600px;
     height: 600px;
     background-color: #333333;
@@ -163,7 +173,7 @@ button:hover {
     
 }
 
-.card__project__image {
+.project__card__image {
     text-align: right;
     overflow: hidden;
     margin-top: 30px;
@@ -183,7 +193,7 @@ button:hover {
     gap: 32px;
 }
 
-.formation__title {
+.formation__title, .profesionals__title {
     text-align: right;
     padding-right: 6px;
     padding-right: 36px;
@@ -195,7 +205,7 @@ button:hover {
     padding-bottom: 36px;
 } */
 
-.formation__contain, .register__contain {
+.formation__contain, .register__contain, .profesionals__contain {
     display: flex;
     align-items: center;
     gap: 48px;
@@ -268,10 +278,37 @@ button:hover {
     padding-left: 36px;
 }
 
+.profesional__name {
+    color: #EF7D00;
+}
 
+.profesional__perfil {
+}
 
+.profesional__description {
+    font-size: 16px;
+}
 
+.profesionals__contain {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+    gap: 10px; 
+    padding: 20px; 
+    max-width: 100%;
+    box-sizing: border-box; 
+}
 
+.img__profesional1 {
+    background-color: #D1E3E7;
+    border-radius: 2px;
+}
 
+.img__profesional2 {
+    background-color: #D0D4C6;
+}
 
+.img__profesional4 {
+    background-color: #E9DCBA;
+}
 
