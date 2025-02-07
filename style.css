@@ -282,9 +282,6 @@ button:hover {
     color: #EF7D00;
 }
 
-.profesional__perfil {
-}
-
 .profesional__description {
     font-size: 16px;
 }
@@ -301,14 +298,16 @@ button:hover {
 
 .img__profesional1 {
     background-color: #D1E3E7;
-    border-radius: 2px;
+    border-radius: 10px;
 }
 
 .img__profesional2 {
     background-color: #D0D4C6;
+    border-radius: 10px;
 }
 
 .img__profesional4 {
     background-color: #E9DCBA;
+    border-radius: 10px;
 }
 
