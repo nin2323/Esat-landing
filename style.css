@@ -288,9 +288,9 @@ button:hover {
 
 .profesionals__contain {
     display: flex; 
-    justify-content: space-between; 
+    justify-content: center; 
     align-items: flex-start; 
-    gap: 10px; 
+    gap: 20px; 
     padding: 20px; 
     max-width: 100%;
     box-sizing: border-box; 
